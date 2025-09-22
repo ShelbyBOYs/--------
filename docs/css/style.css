@@ -60,3 +60,67 @@ footer {
     color: #edb303;
   
 }
+form{
+    max-width: 500px;       /* ширина форми */
+    margin: 80px auto;      /* центр по горизонталі */
+    padding: 75px;          /* внутрішні відступи */
+    border: 3px solid #700c65; /* рамка форми */
+    border-radius: 35px;    /* закруглені кути */
+    background-color: #480c0c; /* фон форми */
+}
+label{
+    display:block;
+    font-weight: bold; 
+    margin-top: 2px;    
+    margin-left:50px; /* кожен label з нової строки */
+}
+input[type="text"]
+{
+    background:#edb303;
+    border:3px solid #700c65;
+    border-radius: 35px;
+    padding:4px;
+    width:100%;
+    margin-top:2px;
+    color:#f00ae4;
+}
+input[type="email"]
+{
+    background:#edb303;
+    border:3px solid #700c65;
+    border-radius: 35px;
+    padding:4px;
+    width:100%;
+    margin-top:2px;
+    color:#f00ae4;
+}
+input[type="password"]
+{
+    background:#edb303;
+    border:3px solid #700c65;
+    border-radius: 35px;
+    padding:4px;
+    width:100%;
+    margin-top:2px;
+    box-sizing: border-box;
+    color:#f00ae4;
+}
+input[type="submit"]
+{
+    background:#0e000c;
+    border:3px solid #700c65;
+    border-radius: 35px;
+    color:#b37575;
+    font-weight:bold;
+    padding:10px;
+    margin-top:20px;
+    width:100%;
+    cursor:pointer; /* курсор у вигляді руки */
+}
+input[type="reset"]
+{
+    background:#0e000c;
+    color:#b37575;
+    
+}
+

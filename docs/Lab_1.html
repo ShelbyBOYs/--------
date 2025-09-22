@@ -14,12 +14,20 @@
                 <a class="ab" href="Lab_works.html">Лабораторні роботи</a>
             </li>
         </ul>
-        <form action="https://shelbyboys.github.io/--------/"metod="get">
-            <label for = "name">Ім'я:</label>
-            <input type="text" id ="name"  required>
-
+        <form action="https://shelbyboys.github.io/--------/"method="POST">
+            <label for="firstName">Ім'я:</label>
+            <input type="text" id ="firstName" name="firstName" required>
+            <label for="LastName">Прізвище:</label>
+            <input type="text" id ="LastName" name="LastName"   required>
+            <label for="Email">Пошта:</label>
+            <input type="email" id ="Email" name="Email" required>
+            <label for="Password">Пароль:</label>
+            <input type="password" id ="Password" name="password" required>
+            <label for="confirmPassword">Підтвердження пароля:</lable>
+            <input type="password" id ="confirmPassword" name="confirmPassword" required>
+            <input type="submit" value="Зареєструватися">
             
-
+            <input type="reset" value="Очистити">
         </form>
     </body>
 </html>
