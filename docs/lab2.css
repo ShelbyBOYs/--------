@@ -1,33 +1,67 @@
+li:first-child {
+    font-weight: bold;
+}
 
+a:last-child {
+    color: red;
+}
 
-li:first-child { font-weight: bold; }
+input:disabled {
+    background-color: grey;
+}
 
-a:last-child { color: red; }
+div>p {
+    font-weight: bold;
+}
 
-input:disabled { background-color: grey; }
+[href^="https"] {
+    color: green;
+}
 
-div > p { font-weight: bold; }
+input[type="text"] {
+    border: 1px solid blue;
+}
 
-[href^="https"] { color: green; }
+li:first-child,
+li:last-child {
+    font-size: 24px;
+}
 
-input[type="text"] { border: 1px solid blue; }
+div p {
+    font-size: 16px;
+}
 
-li:first-child, li:last-child { font-size: 24px; }
+#check1{
+    accent-color:lightblue;
+}
+#check2{
+    accent-color:lightblue;
+}
 
-div p { font-size: 16px; }
+li>a {
+    text-decoration: underline;
+}
 
-input:checked { background-color: lightblue; }
+li:nth-child(even) {
+    font-weight: bold;
+}
 
-li > a { text-decoration: underline; }
+input[type="text"]:not(:disabled) {
+    background-color: grey;
+}
 
-li:nth-child(even) { font-weight: bold; }
+p:first-child {
+    font-size: 24px;
+}
 
-input[type="text"]:not(:disabled) { background-color: grey; }
+.special+li {
+    text-decoration: line-through;
+}
 
-p:first-child { font-size: 24px; }
+p::first-letter {
+    font-size: 36px;
+}
 
-.special + li { text-decoration: line-through; }
-
-p::first-letter { font-size: 36px; }
-
-a::after { content: "↗"; }
+a::after {
+    content: "↗";
+}
