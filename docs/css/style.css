@@ -126,6 +126,9 @@ input[type="reset"]
 form{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
+
+/* КСС ПІД 3 ЛАБУ*/
+
 #Search
 {
  background-color: #151515;
@@ -134,6 +137,7 @@ form{
  width: 555px;
  height: 45px;
  border:1px solid  #151515;
+ color:#fff8f8;
  
 }
 .hed{
@@ -170,9 +174,8 @@ form{
   width: 320px;         /* нормальна ширина кожного відео */
   background: #111;
   border-radius: 10px;
-  overflow: hidden;     /* щоб відео/зображення не вилазило */
+  overflow: hidden;     /* щоб зображення не вилазило */
 }
-
 /* зображення превʼю */
 .video img {
   width: 100%;
@@ -180,9 +183,23 @@ form{
   display: block;
 }
 
-/* текст під відео */
-.video .title {
-  color: white;
-  font-size: 14px;
-  padding: 8px;
+.boby{
+background-color: #242424;
+
+}
+.f{
+    
+    text-align: center;
+    padding: 0px;
+    background-color: #2d2c2c4d;
+    padding-bottom: 25px;
+}
+.i{
+    color: #fdfdfd;
+    line-height: 1.7;   
+    padding: 15px;  
+    text-decoration: none;
+}
+.colo{
+    color:#480c0c;
 }
