@@ -203,3 +203,9 @@ background-color: #242424;
 .colo{
     color:#480c0c;
 }
+.lav{
+    display: flex;
+    flex:wrap;
+    justify-content: center;
+    
+}
