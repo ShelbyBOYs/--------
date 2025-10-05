@@ -126,3 +126,63 @@ input[type="reset"]
 form{
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
+#Search
+{
+ background-color: #151515;
+ border :#151515;
+ border-radius: 32px;
+ width: 555px;
+ height: 45px;
+ border:1px solid  #151515;
+ 
+}
+.hed{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding :10px;
+}
+ .sidebar {
+    width: 250px;
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+    .sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+  }
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;      /* дозволяє переносити відео на новий ряд */
+  gap: 20px;            /* відстань між відео */
+  justify-content: center; /* центрує всі блоки */
+  margin-top: 30px;
+}
+
+.video {
+  width: 320px;         /* нормальна ширина кожного відео */
+  background: #111;
+  border-radius: 10px;
+  overflow: hidden;     /* щоб відео/зображення не вилазило */
+}
+
+/* зображення превʼю */
+.video img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* текст під відео */
+.video .title {
+  color: white;
+  font-size: 14px;
+  padding: 8px;
+}
