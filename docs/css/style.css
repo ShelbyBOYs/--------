@@ -176,6 +176,7 @@ form{
   border-radius: 10px;
   overflow: hidden;     /* щоб зображення не вилазило */
   display:block;
+  color:#630909
 }
 /* зображення превʼю */
 .video img {
