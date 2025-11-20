@@ -1,0 +1,52 @@
+    .Avatar_Container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 45px;
+        margin-top: 30px;
+        align-items: center;
+        
+    }
+    .Avatar_Picture{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgba(172, 11, 11, 0.7);
+
+    }
+    .Avatar_Text{
+        color:rgb(138, 24, 4);
+        font-size: 14px;
+        font-family: 'Arial', sans-serif;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .Top_Menu{
+        display:flex;
+        justify-content: flex-end; 
+        gap:30px;
+        margin-bottom:20px;
+        margin-right: 20px;
+    }
+    .Top_Menu ul{
+        gap:25px;
+        display:flex;
+        list-style:none;
+    }
+
+    .Top_Menu a {
+        text-decoration:none;
+        color: rgb(28, 10, 10);
+        font-weight: bold;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+    }
+    .Header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        
+    }
+
