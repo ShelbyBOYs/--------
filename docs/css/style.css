@@ -2,70 +2,9 @@
 @media (max-width: 768px) {
    
 }
-
-
-
-
-  header {
-    padding: 10px 15px;
-  }
-
-  nav ul {
-    display: flex;
-    flex-wrap: wrap;           /* щоб пункти меню переносились на новий рядок */
-    justify-content: center;   
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    display: inline-block;
-  }
-
-  nav a {
-    font-size: 14px;          
-  }
-
-  
-  main {
-    display: flex;
-    flex-direction: column;    
-    align-items: center;       
-    text-align: center;
-    padding: 20px 15px;
-  }
-
-  .avatar {                   
-    margin: 0 auto 15px;
-  }
-
-  .avatar img {
-    max-width: 200px;        
-    width: 100%;
-    height: auto;
-  }
-
-  .intro-text h1,
-  .intro-text h2 {
-    font-size: 22px;
-    line-height: 1.3;
-  }
-
-  .intro-text p {
-    font-size: 14px;
-  }
-
-
-  footer {
-    text-align: center;
-    padding: 20px 10px;
-  }
-
-  footer a {
-    display: block;            
-    margin: 3px 0;
-  }
+ .a{
+    font-size: 10px;
+ }
 
 * {
     margin: 0;
