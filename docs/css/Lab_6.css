@@ -1,0 +1,47 @@
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
+.scene {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(#7fd3ff 0 70%, #3fa43f 70% 100%);
+}
+
+.pokemon {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 84px;   
+    height: 80px; 
+    background-image: url("../Pokemons.png");
+    animation:
+        pokemonWalk 0.4s steps(2) infinite,
+        pokemonMove 6s linear infinite alternate;
+}
+
+
+/* прокрутка спрайта: 2 кадри по 84px */
+@keyframes pokemonWalk {
+    from { background-position:   0 0; }
+    to   { background-position: -167px 0; }
+}
+
+@keyframes pokemonMove {
+    from { transform: translateX(0); }
+    to   { transform: translateX(600px); }
+}
+
+.L{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(223, 70, 70);
+}
+
