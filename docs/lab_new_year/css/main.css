@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050816;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #0f172a;
+}
+
+.header__logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.card {
+  background: #111827;
+  padding: 25px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 15px black;
+}
+
+.card__title {
+  margin-bottom: 10px;
+}
+
+.card__text {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+.card__tree {
+  width: 80px;
+  height: 120px;
+  background: green;
+  clip-path: polygon(50% 0, 90% 40%, 70% 40%, 100% 100%, 0 100%, 30% 40%, 10% 40%);
+  margin: 0 auto 20px;
+}
+
+.card__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: orange;
+  cursor: pointer;
+}
+
+.button--secondary {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 390px;
+
+}
+
+.footer__text {
+  font-size: 12px;
+  color: gray;
+}
+.to_lab_works {
+  text-decoration: none;
+  color: rgb(184, 26, 26);
+  font-size: 14px;
+}
