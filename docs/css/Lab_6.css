@@ -28,7 +28,7 @@ body {
 }
 
 
-/* прокрутка спрайта: 2 кадри по 84px */
+
 @keyframes pokemonWalk {
     from { background-position:   0 0; }
     to   { background-position: -167px 0; }
