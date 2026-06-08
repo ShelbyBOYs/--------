@@ -66,3 +66,26 @@ if (isNaN(age) || age <= 0) {
     output.textContent = `Адмін:${admin1.name}, Вік:${admin1.age}, Професія:${admin1.profession}, Роль:${admin1.role}`;
     alert(`Адмін:${admin1.name}, Вік:${admin1.age}, Професія:${admin1.profession}, Роль:${admin1.role}`); 
 }
+
+class point2d{
+   constructor(x,y){
+     this.x  = x;
+     this.y = y;
+   }
+   
+}
+
+class point3d extends point2d{
+    constructor(x,y,z){
+       super(x,y);
+       this.z = z;
+    }
+    
+
+}
+
+ const a = new point2d(0,0);
+ console.log(a)
+ const b = new point3d(1,1,1);
+ console.log(b)
+ console.log(a)
